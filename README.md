@@ -1,6 +1,6 @@
 # Xylophone App
 
-Welcome to the Xylophone app, a Flutter-based application designed to Kids for playing this game.
+Welcome to the Xylophone app, a Flutter-based application designed to Kids for playing mobile game.
 
 ## Features
 
@@ -15,7 +15,7 @@ https://github.com/Amrut-03/Xylophone_app/assets/125724968/7aa2090f-4bc7-41c6-90
 The code is organized into Single Dart files:
 
 - **main.dart:** Contains the main structure of the app.
-- **BuilKey Widget:** it is reusable Widget, which Contain that Color Container.
+- **BuildKey Widget:** It is reusable Widget, which Contains Rainbow Colors Containers.
 
 ## Dependecies
 
