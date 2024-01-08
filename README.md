@@ -1,16 +1,31 @@
-# xylophone
+# Xylophone App
 
-A new Flutter project.
+Welcome to the Xylophone app, a Flutter-based application designed to Kids for playing this game.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Rainbow Colors Buttons:** When click on any color then it will sounds music.
 
-A few resources to get you started if this is your first Flutter project:
+## ScreenRecording
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Amrut-03/Xylophone_app/assets/125724968/7aa2090f-4bc7-41c6-90c0-68690a670ba7
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Code Structure
+
+The code is organized into Single Dart files:
+
+- **main.dart:** Contains the main structure of the app.
+- **BuilKey Widget:** it is reusable Widget, which Contain that Color Container.
+
+## Dependecies
+
+- **Audio_Player**
+   ```bash
+   audioplayers: ^4.0.1
+  
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Amrut-03/Xylophone_app
