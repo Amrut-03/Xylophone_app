@@ -15,14 +15,13 @@ class _XylophoneState extends State<Xylophone> {
 
   Expanded buildkey(Color color, {required int soundnumber}) {
     return Expanded(
-      child: ElevatedButton(
-        style: TextButton.styleFrom(
-          backgroundColor: color,
-        ),
-        onPressed: () {
+      child: InkWell(
+        onTap: () {
           playSound(soundnumber);
         },
-        child: null,
+        child: Container(
+          color: color,
+        ),
       ),
     );
   }
@@ -48,11 +47,10 @@ class _XylophoneState extends State<Xylophone> {
             ),
           ),
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: Center(
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 buildkey(Colors.red, soundnumber: 1),
                 buildkey(Colors.orange, soundnumber: 2),
